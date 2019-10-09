@@ -1,0 +1,8 @@
+{
+  "name": "updated_rps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yasmineezequiel/updated_rps-.git",
+  "author": "yasmine <yasmine.ezequiel@gmail.com>",
+  "license": "MIT"
+}
