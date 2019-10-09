@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/yasmineezequiel/updated_rps-.git",
   "author": "yasmine <yasmine.ezequiel@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.2",
+    "puppeteer": "^1.20.0",
+    "superstatic": "^6.0.4"
+  }
 }
