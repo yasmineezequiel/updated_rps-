@@ -7,9 +7,8 @@ Feature: Play Rock Paper Scissors
   Scenario: Play can choose rock, paper or scissors 
     Given I visit the site
     Then I should see 'Rock paper and scissors'
-    When I click 'Let's Play'
-    Then I should see 'rock'
-    When I click 'rock' as Player
+    And I should see 'content'
+    When I click 'rock'
     And Computer choose 'rock'
     Then I should see 'It is a tie'
     And I see 'score zero' for player and for Computer 
