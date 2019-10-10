@@ -13,7 +13,7 @@ Then("I should see {string}", async function(content) {
 });
 
 When('I click {string}', async function (string) {
-  return await this.clickOnRockBtn()
+  return await this.clickOnButton(string)
 })
 
 

@@ -1,11 +1,10 @@
-// document.addEventListener('DOMContentLoaded', () => {
 const game = () => {
   let pScore = 0;
   let cScore = 0;
 
   //Start the Game
   const startGame = () => {
-    const playBtn = document.querySelector(".play button");
+    const playBtn = document.querySelector(".intro button");
     const introScreen = document.querySelector(".intro");
     const match = document.querySelector(".match");
 
