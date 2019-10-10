@@ -2,11 +2,27 @@
 In this RPS game, the user can play against the computer.
 
 Dependencies:
-This program has been written in JavaScript and testing is done with cucumber 
+This program has been written in JavaScript and testing was done with cucumber,
+other tools used;
+NodeJS
+Chai
+webpack
+puppeteer
+e2e_training_wheels
+babel
+yarn command
 
-<h2>Authors</h2>
+How to Use tests
+$ yarn run cucumber
 
-Yasmine Ezequiel with inspiration from https://www.youtube.com/watch?v=qWPtKtYEsN4
+<h2>Inspiration</h2>
+https://www.youtube.com/watch?v=eygshyXEWBk
+https://www.youtube.com/watch?v=jaVNP3nIAv0
+https://www.youtube.com/watch?v=qWPtKtYEsN4
+
+<h2>Author</h2>
+
+Yasmine Ezequiel 
 
 <h2>Acknowledgement</h2>
 
