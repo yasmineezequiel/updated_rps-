@@ -13,9 +13,9 @@ class RpsWorld {
     this.page = await this.browser.newPage()
     await this.page.goto(HOME_PAGE)
   }
-  async closeHomePage() {
-    await this.browser.close()
-  }
+  // async closeHomePage() {
+  //   await this.browser.close()
+  // }
   async pageHasTextContent(expectedContent) {
     const pageContent = await this.page.content()
     const actualContent = pageContent.match(expectedContent)[0]
